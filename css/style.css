@@ -1,0 +1,42 @@
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  height: 25vh;
+  line-height: 100px;
+}
+a {
+  text-decoration: none;
+
+}
+li:hover {
+  color: white;
+  background-color: black;
+}
+li {
+  list-style: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border: 2px black solid;
+  background: #72046A;
+  border-radius: 50px;
+  transition: all .3s ease;
+
+}
+
+.showcase {
+  background-image: url(../images/lover.jpg);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
